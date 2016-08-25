@@ -19,7 +19,9 @@ void face()
 	fill(0);
 	arc(200, 150, 60, 100, PI/6, PI+THIRD_PI);
 	//the R eye 
-	arc(300, 150, 60, 100, THIRD_PI/2, PI);
+	arc(300, 150, 60, 100, 1.74*PI, PI);
+	//the mouth
+	ellipse(250, 235, 60, 25);
 	
 
 }
